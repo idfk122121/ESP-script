@@ -55,11 +55,12 @@ local function addESP(player)
                     connection:Disconnect()
                     Box:Remove()
                     Outline:Remove()
-                }
+                end
             end
         end)
     end
 end
+
 
 local function onPlayerAdded(player)
     addESP(player)
